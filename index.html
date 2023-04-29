@@ -260,15 +260,18 @@
               <h1 style="font-size: 56px">Planning your education/career in tech & entrepreneurship?</h1>
               <p>Unleash your tech game and inner entrepreneur with Oxford and UCL alumni</p>
               <div class="banner-btn">
-                <a href="#" class="default-btn">Eduhub</a>
-                <a href="#" class="default-btn">Careerhub</a>
+                <a href="edu-hub.html" class="default-btn">Edu Hub</a>
+                <a href="career-hub.html" class="default-btn">Career Hub</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="banner-form">
-              <img src="assets/DALL·E 2023-04-29 21.06.26.png" alt="" />
+              <div class="home-8-sliders owl-carousel  owl-theme">
+                <img src="assets/DALL·E 2023-04-29 21.06.26.png" alt="" />
+                <img src="assets/DALL·E 2023-04-30 00.04.08.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -758,6 +761,22 @@
     console.log(path)
     $(".nav-item a[href*='"+path+"']").addClass("active");
   })
+  $('.home-8-sliders').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    mouseDrag: true,
+    items:1,
+    autoHeight:true,
+    dots: true,
+    autoplay: true,
+    smartSpeed: 500,
+    autoplayHoverPause: true,
+    navText: [
+      "<i class='flaticon-left'></i>",
+      "<i class='flaticon-right-1'></i>",
+    ],
+  });
 </script>
 </body>
 </html>

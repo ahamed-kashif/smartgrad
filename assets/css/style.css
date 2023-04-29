@@ -1299,6 +1299,84 @@ Banner Area CSS
   opacity: 1;
   visibility: visible;
 }
+.home-8-sliders.owl-theme .owl-nav {
+  margin-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.home-8-sliders.owl-theme .owl-nav [class*=owl-] {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  background: #212121;
+  border-radius: 2px;
+  width: 55px;
+  height: 55px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
+}
+
+.home-8-sliders.owl-theme .owl-nav [class*=owl-] i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.home-8-sliders.owl-theme .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 20px;
+}
+
+.home-8-sliders.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #086AD8;
+  color: #ffffff;
+}
+
+.home-8-sliders.owl-theme .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+}
+
+.home-8-sliders.owl-theme .owl-dots .owl-dot span {
+  width: 13px;
+  height: 13px;
+  margin: 0 5px;
+  background: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 50%;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.home-8-sliders.owl-theme .owl-dots .owl-dot:hover span, .home-sliders.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #10dce8;
+}
+
+.home-8-sliders.owl-theme .owl-dots .owl-dot.active span {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.home-8-sliders.owl-theme:hover .owl-nav {
+  opacity: 1;
+  visibility: visible;
+}
 
 /*================================================
 Features Area CSS
