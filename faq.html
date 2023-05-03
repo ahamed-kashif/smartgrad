@@ -209,21 +209,41 @@
                 </div>
 
                 <div class="sidebar-contact-feed">
-                    <h2>Sign in</h2>
+                    <h2>Contact</h2>
                     <div class="contact-form">
                         <form id="contactForm">
                             <div class="row">
-
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email" />
+                                        <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group">
-                                        <input type="password" name="password" id="password" required data-error="Please enter your password" class="form-control" placeholder="Password" />
+                                        <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -231,7 +251,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="send-btn">
                                         <button type="submit" class="send-btn-one">
-                                            Sign in
+                                            Send Message
                                         </button>
 
                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -290,15 +310,15 @@
         <!-- End Sidebar Modal -->
 
         <!-- Start Page Title Area -->
-        <div class="page-title-area item-bg-5">
+        <div class="page-title-area item-bg-4">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="page-title-content">
-                            <h2>Sign In</h2>
+                            <h2>Faq</h2>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li>Sign In</li>
+                                <li>Faq</li>
                             </ul>
                         </div>
                     </div>
@@ -307,62 +327,355 @@
         </div>
         <!-- End Page Title Area -->
         
-        <!-- Start Signup Area -->
-        <div class="signup-section ptb-100">
+        <!-- Start Faq Area -->
+        <section class="faq-section ptb-100">
             <div class="container">
-                <div class="signup-form">
-                    <h3>Sign in to your Account</h3>
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
+                <div class="section-title">
+                    <h2>Frequently <span>Asked</span> Questions</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <div class="bar"></div>
+                </div>
 
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password">
-                                </div>
-                            </div>
 
-                            <div class="col-lg-12">
-                                <div class="send-btn">
-                                    <button type="submit" class="default-btn">
-                                        Sign In
-                                    </button>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="faq-accordion">
+                            <ul class="accordion">
+                                <li class="accordion-item">
+                                    <a class="accordion-title active" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        What access do I have on the free plan?
+                                    </a>
+                            
+                                    <div class="accordion-content show">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </li>
+
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        What access do I have on a free trial?
+                                    </a>
+                            
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </li>
+
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Does the price go up as my team gets larger?
+                                    </a>
+                            
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </li>
+
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        How can I cancel my subscription?
+                                    </a>
+                            
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </li>
+
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Can I pay via an Invoice?
+                                    </a>
+                            
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="faq-image">
+                            <img src="assets/img/faq.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Faq Area -->
+
+         <!-- Start Tab Area -->
+         <section class="tab-section pb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Outstanding Digital Experience</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <div class="bar"></div>
+                </div>
+
+                <div class="tab schedule-list-tab">
+                    <ul class="tabs">
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    <i class="flaticon-analysis"></i>
+                                    Real-Time Analytics
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    <i class="flaticon-optimize"></i>
+                                    Pay-Per-Click
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    <i class="flaticon-software"></i>
+                                    Online Marketing
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    <i class="flaticon-internet"></i>
+                                    Email Marketing
+                                </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    <i class="flaticon-data"></i>
+                                    Social Marketing
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab_content">
+                        <div class="tabs_item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="tab-content">
+                                        <h3>Real-Time Analytics</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Super Responsive</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>High Security</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Optimal Choice</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <br>
-                                <span>Not registered user? Sign up, <a href="sign-up.html">Here!</a></span>
+
+                                <div class="col-lg-6">
+                                    <div class="tab-image">
+                                        <img src="assets/img/tab.png" alt="image">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </form>
+
+                        <div class="tabs_item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="tab-content">
+                                        <h3>Pay-Per-Click</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Super Responsive</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>High Security</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Optimal Choice</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="tab-image">
+                                        <img src="assets/img/tab.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs_item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="tab-content">
+                                        <h3>Online Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Super Responsive</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>High Security</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Optimal Choice</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="tab-image">
+                                        <img src="assets/img/tab.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs_item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="tab-content">
+                                        <h3>Email Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Super Responsive</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>High Security</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Optimal Choice</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="tab-image">
+                                        <img src="assets/img/tab.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tabs_item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="tab-content">
+                                        <h3>Social Marketing</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Super Responsive</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>High Security</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-inner-content">
+                                            <div class="icon">
+                                                <i class="flaticon-tick"></i>
+                                                <h3>Optimal Choice</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="tab-image">
+                                        <img src="assets/img/tab.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/4.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/5.svg" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/6.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/7.png" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/8.png" alt="image">
-                </div>
-            </div>
-        </div>
-        <!-- End Signup Area -->
+        </section>
+        <!-- End Tab Area -->
 
         <!-- Start Footer Area -->
         <section class="footer-section pt-100 pb-70">
