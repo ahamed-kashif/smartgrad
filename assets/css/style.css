@@ -5895,6 +5895,12 @@ Page Title Area CSS
 .page-title-area.item-bg-women {
   background-image: url(../../assets/image/news-event/women-tech.jpg);
 }
+.page-title-area.item-bg-faq {
+  background-image: url(../../assets/image/faq/banner.jpg);
+}
+.page-title-area.item-bg-contact {
+  background-image: url(../../assets/image/contact/banner.jpg);
+}
 
 .page-title-area.item-bg-2 {
   background-image: url(../../assets/image/edu-hub/edu-Hub-page-background.jpeg);
