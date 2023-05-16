@@ -189,6 +189,7 @@ img {
   background-color: #10dce8;
   color: #ffffff;
 }
+.display-none-mob{}
 
 .optional-btn {
   display: inline-block;
@@ -1077,8 +1078,28 @@ Navbar Area CSS
 .sidebar-modal.active .sidebar-modal-inner {
   right: 0;
 }
-
+.banner-font-size{
+    font-size:40px !important;
+}
+.logo-custom{
+    width:150px;
+    height:auto;
+}
+.mob-m{}
 @media only screen and (max-width: 991px) {
+    .mob-m{
+        margin-top:60px;
+    }
+    .logo-custom{
+        width:125px;
+        height:auto;
+    }
+    .banner-font-size{
+        font-size:30px !important;
+    }
+    .display-none-mob{
+        display:none;
+    }
   .fria-responsive-nav {
     display: block;
   }
@@ -4660,13 +4681,13 @@ About Area CSS
 }
 
 .about-image {
-  background-image: url(../../assets/about.jpg);
+  background-image: url(../../assets/image/why_choose_us.jpg);
   background-size: cover;
   background-position: center center;
   height: 100%;
 }
 
-.about-image img {
+.about_smartgrad-image img {
   display: none;
 }
 
